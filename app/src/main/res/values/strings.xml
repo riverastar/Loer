@@ -1,6 +1,21 @@
 <resources>
-    <string name="app_name">Loer</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
+    <string name="app_name">LOER</string>
+    <string name="title_home">Buscar</string>
+    <string name="title_dashboard">Inscribir</string>
     <string name="title_notifications">Notifications</string>
+    <string name="cl_inicio"></string>
+    <string name="txtV_titulo">Consultar Jugador</string>
+    <string name="etxt_documento">N° Documento</string>
+    <string name="btn_consultar">CONSULTAR</string>
+    <string name="frl_inicio"></string>
+    <string name="mobile_navigation"></string>
+    <string name="scv_inscribir"></string>
+    <string name="ll_inscribir"></string>
+    <string name="et_nombre">Nombre</string>
+    <string name="et_documento">Documento</string>
+    <string name="et_celular">Celular</string>
+    <string name="et_edad">Edad</string>
+    <string name="et_posicion">Posicion</string>
+    <string name="et_equipo">Equipo</string>
+    <string name="btn_inscribir">Inscribir</string>
 </resources>
