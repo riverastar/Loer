@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
+import android.database.sqlite.SQLiteDatabase;
 import androidx.annotation.Nullable;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -35,50 +35,11 @@ public class DashboardFragment extends Fragment {
                 textView.setText(s);
 
                 et_n = (EditText) root.findViewById(R.id.et_nombre);
+                btn_i = (Button) root.findViewById(R.id.btn_inscribir);
 
 
 
 
-                et_n.setOnFocusChangeListener(new View.OnFocusChangeListener() {
-                    @Override
-                    public void onFocusChange(View view, boolean b) {
-                        n_v = (BottomNavigationView) getActivity().findViewById(R.id.nav_view);
-                        switch (view.getId()){
-                            case R.id.et_nombre:
-                                if(n_v.getVisibility()== view.VISIBLE){
-                                    n_v.setVisibility(view.GONE);
-                                }
-                                break;
-                            case R.id.et_documento:
-                                if(n_v.getVisibility()== view.VISIBLE){
-                                    n_v.setVisibility(view.GONE);
-                                }
-                                break;
-                            case R.id.et_celular:
-                                if(n_v.getVisibility()== view.VISIBLE){
-                                    n_v.setVisibility(view.GONE);
-                                }
-                                break;
-                            case R.id.et_edad:
-                                if(n_v.getVisibility()== view.VISIBLE){
-                                    n_v.setVisibility(view.GONE);
-                                }
-                                break;
-                            case R.id.et_posicion:
-                                if(n_v.getVisibility()== view.VISIBLE){
-                                    n_v.setVisibility(view.GONE);
-                                }
-                                break;
-                            case R.id.et_equipo:
-                                if(n_v.getVisibility()== view.VISIBLE){
-                                    n_v.setVisibility(view.GONE);
-                                }else {
-
-                                }
-                                break;
-                        }
-                    }
-                });
             }
         });
 

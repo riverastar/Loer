@@ -3,14 +3,17 @@
     <string name="title_home">Buscar</string>
     <string name="title_dashboard">Inscribir</string>
     <string name="title_notifications">Notifications</string>
+    <string name="title_Editar">Editar</string>
     <string name="cl_inicio"></string>
     <string name="txtV_titulo">Consultar Jugador</string>
+    <string name="txtv_jugador">Inscribir Jugador</string>
     <string name="etxt_documento">N° Documento</string>
     <string name="btn_consultar">CONSULTAR</string>
     <string name="frl_inicio"></string>
     <string name="mobile_navigation"></string>
     <string name="scv_inscribir"></string>
     <string name="ll_inscribir"></string>
+    <string name="cl_inscribir"></string>
     <string name="et_nombre">Nombre</string>
     <string name="et_documento">Documento</string>
     <string name="et_celular">Celular</string>
@@ -18,4 +21,9 @@
     <string name="et_posicion">Posicion</string>
     <string name="et_equipo">Equipo</string>
     <string name="btn_inscribir">Inscribir</string>
+    <string name="txtv_raya">_____________________________________________</string>
+    <string name="txt_detalle">\n\</string>
+    <string name="txt_detalle2">\n\</string>
+    <string name="txtv_inf">Para inscribir un jugador debes diligenciar esté formulario, completando todos los campos.</string>
+    <string name="btn_cequipo">CREAR EQUIPO</string>
 </resources>
