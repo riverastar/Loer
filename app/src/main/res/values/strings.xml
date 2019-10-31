@@ -1,14 +1,15 @@
 <resources>
     <string name="app_name">LOER</string>
-    <string name="title_home">Buscar</string>
-    <string name="title_dashboard">Inscribir</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_dashboard">Datos</string>
+    <string name="title_notifications">Ir a</string>
     <string name="title_Editar">Editar</string>
     <string name="cl_inicio"></string>
     <string name="txtV_titulo">Consultar Jugador</string>
     <string name="txtv_jugador">Inscribir Jugador</string>
     <string name="etxt_documento">N° Documento</string>
     <string name="btn_consultar">CONSULTAR</string>
+    <string name="text_titulo1">Inscribir Equipo</string>
     <string name="frl_inicio"></string>
     <string name="mobile_navigation"></string>
     <string name="scv_inscribir"></string>
@@ -25,5 +26,8 @@
     <string name="txt_detalle">\n\</string>
     <string name="txt_detalle2">\n\</string>
     <string name="txtv_inf">Para inscribir un jugador debes diligenciar esté formulario, completando todos los campos.</string>
-    <string name="btn_cequipo">CREAR EQUIPO</string>
+    <string name="imgb_cequipo"></string>
+    <string name="imgb_cjugador"></string>
+    <string name="imgb_tarjetas"></string>
+    <string name="imgb_pagos"></string>
 </resources>
