@@ -2,7 +2,7 @@
 
 <paths xmlns:android="http://schemas.android.com/apk/res/android">
     <external-path
-        name="my_image"
-        path="Android/data/com.example.loer/fotos/fotografias"/>
+        name="my_images"
+        path="Android/data/com.example/fotos/fotografias"/>
 </paths>
 

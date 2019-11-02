@@ -95,14 +95,15 @@
                 <ImageView
                     android:id="@+id/foto_jugador"
                     android:layout_width="137dp"
-                    android:layout_height="match_parent"
+                    android:layout_height="69dp"
+                    android:background="@android:color/transparent"
                     android:contentDescription="@string/app_name"
                     app:srcCompat="@drawable/previo" />
 
                 <ImageButton
                     android:id="@+id/imageB"
-                    android:layout_width="168dp"
-                    android:layout_height="match_parent"
+                    android:layout_width="182dp"
+                    android:layout_height="69dp"
                     android:background="@android:color/transparent"
                     android:contentDescription="@string/app_name"
                     app:srcCompat="@drawable/camara" />
